@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding:0 150px;
+    gap: 50px;
+}
+.logo {
+    flex-shrink: 0;
+}
+
+.logo-links-container {
+    border: 1px red solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.links li a{
+    text-decoration: none;
+}
+
+/*image steaks*/
+
+
+.header-content-container {
+    border: 1px red solid;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    
+}
+
+.content {
+    border: 1px solid red;
+    flex-grow: 0;
+}
+
+
+.steak-image {
+    border: 1px red solid;
+    border-radius: 40px;
+    max-width: 400px;
+}
