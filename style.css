@@ -41,8 +41,7 @@ body {
     border: 1px red solid;
     display: flex;
     gap: 50px;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 
 .content {
