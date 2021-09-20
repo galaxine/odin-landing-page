@@ -66,6 +66,8 @@ body {
 
 .content button {
     background-color: #3882F6;
+    border: none;
+    padding: 8px 32px;
 }
 
 .steak-image {
@@ -162,7 +164,7 @@ p {
     margin-bottom: -18px;
 }
 
-.subscribe-button button {
+button {
     border-radius: 6px;
     background-color: #3882F6;
     border: #F9FAF8 3px solid;
