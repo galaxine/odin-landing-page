@@ -58,10 +58,12 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    text-align: justify;
 }
 
 .content p {
     color: #E5E7EB;
+    text-align: justify;
 }
 
 .content button {
@@ -107,6 +109,7 @@ body {
     font-size: 18px;
     color: black;
     max-width: 160px;
+    text-align: justify;
 }
 
 
@@ -186,4 +189,8 @@ button {
     padding: 0;
     margin: 0;
     color: #F9FAF8;
+}
+
+button:hover {
+    cursor: pointer;
 }
